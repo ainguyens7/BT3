@@ -1,0 +1,1 @@
+var rootUrl = "http://narutodaichien.com/";var cdnUrl = "http://id.truongton.net/";

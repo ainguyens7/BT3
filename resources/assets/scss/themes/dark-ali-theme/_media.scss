@@ -1,0 +1,153 @@
+.media {
+    overflow: inherit;
+
+    .badge-verify {
+        color: #4ad991;
+    }
+
+    .media-left {
+        padding-right: 15px;
+    }
+
+    h4 a {
+        color: $dark-blue;
+    }
+
+    .media-left_location {
+        display: table;
+
+        span {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .ali-flag-slc {
+            width: 25px;
+            width: calc(25px + 5px);
+            display: inline-block;
+        }
+    }
+
+    .media-body {
+        overflow: inherit;
+
+        .media-heading.date-time {
+            position: relative;
+            padding-right: 75px;
+
+            &:after {
+                content: attr(media-time);
+                color: #242539;
+                position: absolute;
+                top: 2px;
+                right: 0;
+                font-size: 11px;
+                @include opacity(0.5);
+            }
+        }
+
+        .media-body_cnt {
+            margin-bottom: 30px;
+        }
+
+        .media_attach-img {
+            margin-bottom: 20px;
+        }
+
+        .media-body_rating {
+            img {
+                vertical-align: initial;
+            }
+        }
+
+        .media_like {
+            b {
+                display: inline-block;
+                cursor: pointer;
+
+                [class^="icon"] {
+                    font-size: 16px;
+                    margin-left: 3px;
+                    color: #a4afb7;
+                    vertical-align: text-bottom;
+                }
+
+                &.active [class^="icon"] {
+                    color: #ffb303;
+                }
+            }
+        }
+    }
+
+    &--panel {
+        overflow: initial;
+
+        .media-body {
+            overflow: inherit;
+            position: relative;
+            padding: 15px;
+            box-shadow: 0px 0px 10px 1px #e2e2e2;
+            background-color: #fff;
+            @include border-radius(5px);
+
+            &:after,
+            &:before {
+                position: absolute;
+                left: -10px;
+                top: 15px;
+                display: inline-block;
+                content: "";
+                border-top: 8px solid transparent;
+                border-right: 10px solid #c5c5c5;
+                border-bottom: 8px solid transparent;
+            }
+
+            &:after {
+                border-top: 9px solid transparent;
+                border-right: 12px solid #ffffff;
+                border-bottom: 10px solid transparent;
+                left: -9px;
+                top: 14px;
+            }
+        }
+    }
+
+    &--point {
+        .media-left {
+            button {
+                @include size(67px, 67px);
+            }
+        }
+
+        .media-body {
+            vertical-align: middle;
+
+            &--icon,
+            &--write-new {
+                position: relative;
+
+                button {
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    bottom: 50%;
+                    transform: translate(0, -50%);
+                }
+            }
+
+            &--write-new {
+                h4,
+                p {
+                    padding-right: 125px;
+                }
+            }
+
+            &--icon {
+                h4,
+                p {
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+}

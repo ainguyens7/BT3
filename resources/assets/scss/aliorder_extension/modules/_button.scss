@@ -1,0 +1,162 @@
+@mixin aliorders_ext_button {
+  font-size: $font_size;
+  border-radius: $button_border_radius;
+  background-color: $light;
+  color: $dark;
+  border: none;
+  outline: none !important;
+  padding: 6px 20px;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  font-weight: 400;
+}
+
+a[class^="#{$prefix}-button--"] {
+  padding: 7px 20px;
+}
+
+[class^="#{$prefix}-button--"] {
+  &.#{$prefix}-button--icon {
+    min-height: 30px;
+  }
+
+  [class^="#{$prefix}-arrow"] {
+    z-index: -1;
+  }
+
+  &.#{$prefix}-rounded {
+    border-radius: 30px;
+  }
+}
+
+.#{$prefix}-button--default {
+  @include aliorders_ext_button;
+  color: $dark;
+  background-color: $button_default;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+
+  &:hover {
+    background-color: $button_default_hover;
+  }
+
+  &:active {
+    background-color: $button_default_active;
+  }
+}
+
+.#{$prefix}-button--primary {
+  @include aliorders_ext_button;
+  color: #fff;
+  background-color: $button_primary;
+
+  &:hover {
+    background-color: $button_primary_hover;
+  }
+
+  &:active {
+    background-color: $button_primary_active;
+  }
+}
+
+.#{$prefix}-button--warning {
+  @include aliorders_ext_button;
+  color: #fff;
+  background-color: $button_warning;
+
+  &:hover {
+    background-color: $button_warning_hover;
+  }
+
+  &:active {
+    background-color: $button_warning_active;
+  }
+}
+
+.#{$prefix}-button--danger {
+  @include aliorders_ext_button;
+  color: #fff;
+  background-color: $button_danger;
+
+  &:hover {
+    background-color: $button_danger_hover;
+  }
+
+  &:active {
+    background-color: $button_danger_active;
+  }
+}
+
+.#{$prefix}-button--light {
+  @include aliorders_ext_button;
+
+  &:hover {
+    background-color: $button_light_hover;
+  }
+
+  &:active {
+    background-color: $button_light_active;
+  }
+}
+
+// OUTLINE
+.#{$prefix}-button--primary-outline {
+  @include aliorders_ext_button;
+  color: #fff;
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 1px $button_primary;
+  color: $button_primary;
+
+  &:hover {
+    box-shadow: 0px 0px 0px 1px $button_primary_hover;
+    color: $button_primary_hover;
+  }
+
+  &:active {
+    box-shadow: 0px 0px 0px 1px $button_primary_active;
+    color: $button_primary_active;
+  }
+}
+
+.#{$prefix}-button--light-outline {
+  @include aliorders_ext_button;
+  color: #fff;
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 1px $button_light;
+  color: $dark;
+
+  &:hover {
+    box-shadow: 0px 0px 0px 1px $button_light_hover;
+    color: rgba(77, 79, 92, 0.7);
+  }
+
+  &:active {
+    box-shadow: 0px 0px 0px 1px $button_light_active;
+    color: rgba(77, 79, 92, 0.85);
+  }
+}
+
+// GRADIENT
+.#{$prefix}-button--primary-gradient {
+  @include aliorders_ext_button;
+  color: #fff;
+  background: -moz-linear-gradient(180deg, #11DCBA 0, #23C1BC 100%);/* FF3.6+ */
+  background: -webkit-gradient(linear, 180deg, color-stop(0, 11DCBA), color-stop(100%, 23C1BC));/* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #11DCBA 0, #23C1BC 100%);/* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #11DCBA 0, #23C1BC 100%);/* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #11DCBA 0, #23C1BC 100%);/* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+  background: linear-gradient(180deg, #11DCBA 0, #23C1BC 100%);/* W3C */
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.85;
+  }
+}

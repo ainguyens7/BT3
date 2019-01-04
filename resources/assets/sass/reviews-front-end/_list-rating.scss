@@ -1,0 +1,114 @@
+.alr-summary {
+  float: left;
+  margin-left: 25px;
+
+  .alr-count-reviews {
+    list-style: none;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+
+    li {
+      cursor: pointer;
+      display: table;
+      margin-bottom: 0;
+      padding-bottom: 0;
+
+      .alr-sum-wrap,
+      .alr-progress-bar-wrap,
+      .alr-count {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+
+    .alr-sum-wrap {
+      width: 40px;
+      position: relative;
+
+      .alr-sum-point {
+        color: #838296;
+        font-size: 12px;
+        font-weight: 700;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+      }
+
+      .alr-star {
+        padding-left: 12px;
+
+        i {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .alr-progress-bar {
+      width: 165px;
+      height: 7px;
+      background-color: #f0f2f8;
+      border-radius: 30px;
+      border-bottom: solid 1px #ececec;
+      position: relative;
+
+      & > div {
+        position: absolute;
+        width: 100%;
+        height: 7px;
+        background-color: #ffb303;
+        border-radius: 30px;
+      }
+    }
+
+    .alr-count {
+      color: #838296;
+      font-size: 11px;
+      font-weight: 500;
+      width: 40px;
+      max-width: 40px;
+      padding-left: 12px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    &:hover {
+      li {
+        opacity: 0.6;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .alr-summary {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 30px;
+
+    .alr-count-reviews {
+      width: 100%;
+
+      li {
+        width: 100%;
+      }
+    }
+
+    .alr-progress-bar-wrap {
+      .alr-progress-bar {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .alireview-header-summary {
+    display: flex;
+    align-items: center;
+  }
+}

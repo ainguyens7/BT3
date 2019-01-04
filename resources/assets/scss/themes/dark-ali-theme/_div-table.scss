@@ -1,0 +1,41 @@
+.wrapper-tbl-responsive {
+    overflow-x: auto;
+}
+
+.wrapper-tbl {
+	background: #fff;
+    display: table;
+	border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+
+    &__header,
+    &__footer {
+		display: table-row;
+		font-weight: bold;
+		border-bottom-width: 2px;
+    }
+	
+    &__header &__td {
+		border-bottom-width: 2px;
+	}
+
+	&__footer &__td {
+		border-top-width: 2px;
+	}
+	
+	&__tr {
+		display: table-row;
+
+		&::nth-of-type(odd) {
+		    background-color: #f9f9f9;
+		}
+	}
+
+	&__td {
+		display: table-cell;
+		border: 1px solid #ddd;
+		border-width: thin;
+		padding: 8px;
+	}
+}

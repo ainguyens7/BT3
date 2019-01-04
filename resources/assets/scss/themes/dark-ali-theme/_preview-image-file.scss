@@ -1,0 +1,67 @@
+.wrapper-preview-img {
+	label {
+		position: relative;
+		cursor: pointer;
+
+		[class^="icon-"] {
+			position: absolute;
+			bottom: 0;
+			right: 2px;
+			background-color: $purple;
+			border-radius: 50%;
+			color: #fff;
+			text-align: center;
+			line-height: 20px;
+			font-size: 12px;
+			@include size(20px, 20px);
+		}
+
+		img {
+		    cursor: pointer;
+			@include size(90px, 90px);
+		}
+	}
+}
+
+.wrapper-up-photo {
+	padding-top: 15px;
+
+	.button {
+		i {
+			padding: 7px 0px;
+			vertical-align: middle;
+			margin-left: -3px;
+		}
+	} 
+	
+	&__button {
+		@include size(40px, 40px);
+		padding: 0px 11px;
+		
+		span {
+			font-size: 22px;
+			color: #cccccc
+		}
+
+		&:active, &:hover, &:focus {
+			span {
+				color: #fff;
+			}
+		}
+	}
+
+	img {
+		@include size(40px, 40px);
+		object-fit: cover;
+	}
+
+	&__item {
+		position: relative;
+		padding-right: 15px;
+		
+	}
+
+	.review-photo-list {
+		padding: 15px !important;
+	}
+}

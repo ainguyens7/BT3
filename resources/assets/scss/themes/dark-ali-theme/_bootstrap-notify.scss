@@ -1,0 +1,56 @@
+.notify-icon-info {
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAABHNCSVQICAgIfAhkiAAAAv9JREFUWIXNmEFSWkEQhr9+aCUKloAbiSTBZKeL4MplSFU22eEJIjmBR/AInCAxJ5AbaJaugIXsErFKgxsNlkSTsrCzmCfh6QNnAE3+qreAmZ75anp6umeEAaQXjQzt9mtU8ojGQeJA1m+ugDZRaSJaIhL5IhOpuusc4gTUOngPstYFYasKaFFi6c8jBfOB1oGMI9BN1UHXbQD7ghmXXW3ivkJ3qULEW+nn4p5g2jrIomwhEh8xlD+BNhHeSCxdCWv2ekCtgpTvDQowY0vZzBXSHAKVBSnfG1CodOnmygVWTC8aGZSth4UClC29aAQCK+jK9tXmvbqvl0TifpB11AHzfT3q6HNRtnu/dfaYtg73GP6cGlZ1ic3Ngw/mR+En52Euz+C4BucN+HVi/nuchMkUzCzA+NQAbFqQWHrDBzss4+rGox042e3fJ7kIs8uuZBWJzS2Jf7rvOZl+3YTfP+z6TqYg884NLeLNe7TbOSejox17KDBuPtpxA2u3cx4qeWuDy7Pe7lv4YL4wnewaW1up5D1Q+3PruGY/+FC2GvcQmbbu//O7O9C1zhv2fUWmPVyi0WVv3dT1cWKnbGh18T9oDLQK8sqq96NE71Wrfbzb1lpa9VCa1v2jT3q3vcibbxDbW1w0PRB7sJkF+8GHspWmh2jJuv/4lEkzYfpWMl+YkotueVO05BGJbNtbYHKfy36ZeuaeL6PRkmduKlp1Mny50nvlupVchKdv3aDQqkiiOeb/KgJuZc/sstk3xzVz8F5H66OE2egDlz0UIVgo1oHng4w0Qu1LbC4DgZpf1/8VTRhD4PqmrYOK9WE7cmlVYulOegympEgkj+rpwzPpKdFooC4MgMlEqo7gVjiOQkJOJBE46G8lcXMj1sLDUWkh7P3irkeVbad6zYlHTxFyvR5VLJ6h2qXRB4RWiUZvua9bfesxmUjVTaRoAdgfAdG+77psPyhwf+pcBdbcV1CrQFFi6Q1bCyewzjTGxTlzw9I4QvwvrFZNjdd5HN4e5HH4D01KETWy0nb1AAAAAElFTkSuQmCC)
+}
+.notify-icon-error {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAABHNCSVQICAgIfAhkiAAABHRJREFUWIXtmE1oXFUcxc//TZJJGk1tE6MiIkXFaCDQRqkpps5XRlJsqqmdSSgtSilFcKOLuqoOuhA/sK4MQilaWppM0gZDbEKSmXkxJSnELERSlG4qVFMjZUwgJPPx3nE1sSV5XzPjyjm7effc8/9x59777rtASSWVVJKZpFhBEUBp8Pl2CPAsFTYIuUAq11d1/fqbqrpWrDoFAUeDe3fomtIhUPwAPRC5fxObRvBHIeKgjIbj8R8KqZkX8MU2z3NC5SSAgwIoTvqS/EnAz+s19HpVNeu0tiPgCKA84/d+DJGTTgttEDFb7lp7pXNsetFJN9vA53fvrim/b8sgRHzO6YzEBVI/0BWbnLXbwxbwuWCwukLLTolgZ/5wBiJXXRp3va6qv9ixW86/6KFDLreWGfpPYAFApCrrkuFoILDVjt0SmMk7keJOg40SkSdIrdeW16wx+nLLdj1b+buIVBYHzVykvr8rpg6beUxHmNnKDyxhyVsgP7VAuUayz9wDiMjpr5uby808hsDRxsYKAMfNOXhL19gajiXeI/DO5hZMycqaT9ledxjgkAXyk1u31ezLC5j19QGIVJnGg8e7VfUmAHRNxL8EeAwk1zPAWE2Fuy00M7Ma6u/XtiSXu0HcMWWmvJoXMBR0mAYDoCjfDrTtfSr3OzyROEvwCEiSGFlKLrfvGxlJAcCV9nb3yraaIQhqzTIF2E+TtWUMLGi0AgZQr+llMwN+f1PuQVdMvaALfQ9peseJubkMAERbWqqW06lxgfgtEwW1g8E9DzoHBh61AQwIarPCqajX25x71D2hqrlzwrlgsJrVlXERtNrKA5DOuB9xDkzU2S0gQI3ukskBr/eefyUCKG4tmwDkBbtZACAuPGzUZrzoYLE4NupKLfnr3Q8igE7iMwK6kyCCS0ZthsAiuG27AHkhPBEP56bBoMfzQK6tKx7vB9hJMmM3T0H2D8fApNy0SXs2HEscEYAAMOD3N6VccqM34HtrHXoi8R0VtANI2UhMYyFpOFjGIwx91JIV7AnHEsdysFGvtzkrnBKROgG+6vN7T+W83eOJmE6tDeSqRep4aH4+7RhY0/D93S+BzSVabs+86H+pVXfJpAA1/zbLh30B3+n1YiJusz0WAAiYvg1NO/cGvJcE0mlegJehyxlRMAjAbeDpEXIaonwDwGUCu6KtpR87fPVqMi/gSz7f4xnhDRExPZAUTeRH4VjifTOL6WntYDz+m4h8UVyqzUVgOeUq/8TKZ3mA/zu5dArgteJgGUpTqIePjo2tWBktgU/MzWXKldQBAoZ7Y8Gi/kYoplruSoDNO4XOsenFMko7wIXCyDZIA/W3wzH1vN0Oju4lLgf31Ge0ymEInnfOdq8IJhXBa6HxxKSTfo5ubTrHphfl9p8vAny3gCmSInGmXJedTmGBAu7WEh5P2WKZHAVlPwReAMaf6WQWkFmCo0o62xOamvor37pFub2MAMrTbZ5dCqWJRKMIGkgsiGAe4M8ppWLGzg5QUkkllfQ/1D+tfcZ64O2zGgAAAABJRU5ErkJggg==');
+}
+.notify-icon-success {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABHNCSVQICAgIfAhkiAAAAypJREFUSIm9179vG3UYx/H353t2KYGhEqDSpr4KJP4D+sNnR4SKhQVBWVjaAbGQiUCSFU+tGvcHUIlWMEInmBAMHUAG+84NINGlC6payW4bJalAIEpKbN/D4DgksZNebYvvds/zvef1vdNJ9zwi4QqmgqykY0gHMJ4SetpkLYwlxJLgx5bcpeqpH6Ik9bRdcrwwvrPxd+MtmXsX8UyiExo3TfHZheWFT6+fv/7PQ8P5mfwxg6LQ7kRgl28LgunKbOWzXnlvC/R90IdCj/eDArTv1Wt+zlctrJUeCOem8xclTfUL9jjCeCbw99Sj2tdbwrnp/ElJ7wwPXaWl5zO5/Y/Uw9q3XXB+Ov+mpOKQzT+AnQCCMT/w67Wo9guAg/bXa9LsMEWDS/J4DuzX/6I6lZ3MProGryw3JwRPDBMNR8rHyyfLS4a9iFFvuzypHd7ba7CLNT0sFOzLcKR8nAIxQNyIZTLrZDuW8lP5QzhdGRZauVl5gy9oAWQns6Mu7UVC/oZtsR12iKP/KwogjqaAgwOT8FWYFG2vgw6xt6uQ2aKMvJldTYKmR7zXHwIFsdcZ7NtUqd4wd7hcLIfN+40XzPjpQWipUGomRgFMo04o3hgz81qNFYC583N/pu95R7bAL/eFtp/YHMb8xph8l/ai7GR2FKD0cemv9D3vCLD+P3v595HfXukLBTDmHdid7gN1461G8yXMSh30WuHaSl9oW77jgLleqc149Vx1OfVY6uXBUQDmFEwFWee8LdsVw2pxoxVUz1Vvr48PgBLHrUCA8jNjt4E9SfFBUGC+MlseTQEWy04705mtdq577QHAAChmFAFzALbSuoBxd7sbhHyX8kKXTlX6RTHuxs3mRVhtBG5dudXcl9u/JPHqtri0S7CrLxQwxRPRmejnNRigHtWuZoLMDklj/RbeFrX4RFgMz3auN/Rc9aj+XSbI7JZ0YMjohbAYvrc+1tVl1qP6N37OBzQ+JLYQFsOZzdGefXUtrH3v5/wbBkG/vfVqQz9Rma181CufbIRBk6BnE5I3YtMHi/fnP+lrhNm8eg5tWAwsdoa2OI4/j05H1ST1/gUPh3/JHP9hkwAAAABJRU5ErkJggg==');
+}
+.notify-icon-warning {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABHNCSVQICAgIfAhkiAAAAoVJREFUSIm9l71PU2EUxn/Pa0WIOKkRlZJo4n8gLZQQOoC77iTEuCgfUQSqk500UOMHH4HoYIy6M+hUNDh4gbvoH2B0qIHwsRsr9rjQBG3Fewv0me59b57zO8N7T54jAirTm2g1R7eZmoUdR2ows1+CdUPrYL45e3VrfMELUk87fUz3JGvrjvy8ImMQcSZQh8ZXEw/qWH06MPH5R2jw6ECiGyMjdCIQsIRvq4jh1Lj3otz3A+UOM32JO6DHQvWVQAGE6oUudsaimvNz8/8Fj/W3zSANVQosaUBKdsWbTmb93Ot/gsf62u4hru8VdJvOd8aaDs35ubcl4LH+1stImX2AAiDR3hVvzGX9bx9h63Kle5K1dfX5b5KOBitj782Y3yqYBHUE5G9EIoWmwYcL3x1A7eH8teBQMGM+NemlU5NeuthAQB3L53UVwAE4aTiEeVcqslymtyWOaKgWGNGQ6W2JO5O7VDXolkzukgPFqg0GxZzBqWpjDU45sMZqgyVOO1Ch2mAzLCLZCuhcGKNEcrQvkS4+hwVLthIBloFQYFCHRNBpVU7LDmNpFwUqk7EUkTFrYiSks9JZDYCMWTc05S0arITCVj6rMVgZmvIWncCsYPfDmHcjGRmBRQBqamx6c1O3gWOBzJXf6o3IwcIMbAt7Y/2JHtCzEEVCywr0pKY+PIdtCSTr5z51xaM1oPZ9wt5NTXoPim9/ZK6sn3vXFY+eADXvMXR6ZMK7uf2kJGVm/dybC7EoSKEnUjnJLD0y6ZX8rmVzddbPve9siX4BEpVm661Af21kwhsv29BO5uIKg3FD4mwgoPFF2KNarT2paIX5W+WWNrACxlpxaXPGy+EpbyFIvd/Due8L53fsAQAAAABJRU5ErkJggg==');
+}
+
+[data-notify="container"] {
+    max-width: 300px;
+    padding-left: 50px;
+    padding-right: 30px;
+    top: 85px !important;
+
+    [data-notify="message"] {
+        // font-size: 13px;
+    }
+
+    [data-notify="dismiss"] {
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        outline: none !important;
+    }
+
+    [data-notify="icon"] {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        transform: scale(0.7);
+        margin-right: 10px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%) scale(0.7);
+        background-position: 50% 50%;
+    }
+
+    &.alert-danger [data-notify="icon"] {
+        @extend .notify-icon-error;
+    }
+
+    &.alert-success [data-notify="icon"] {
+        @extend .notify-icon-success;
+    }
+
+    &.alert-warning [data-notify="icon"] {
+        @extend .notify-icon-warning;
+    }
+}

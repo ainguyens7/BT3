@@ -1,0 +1,25 @@
+.add-review-finish {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 30px !important;
+  text-align: center !important;
+  h2 {
+    font-size: 24px !important;
+    margin-bottom: 2rem !important;
+    font-weight: 600 !important;
+    color: $color_text !important;
+    line-height: 1.45em !important;
+    text-align: center !important;
+  }
+  .ars-btn-lg {
+    margin: 0 0 20px !important;
+  }
+
+  p > a {
+    font-weight: 600 !important;
+    color: $color_skin !important;
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+}

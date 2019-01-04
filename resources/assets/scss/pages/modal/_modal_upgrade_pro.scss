@@ -1,0 +1,53 @@
+#convertingUser,
+#convertingUserToPro {
+    form {
+        position: relative;
+    }
+    
+    button[type="submit"] {
+        position: absolute;
+        bottom: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        &:hover {
+            opacity: 0.7 !important;
+        }
+    }
+
+    .btn-no-thank {
+        position: absolute;
+        bottom: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        a {
+            color: #A4AFB7;
+        }
+    }
+}
+
+#convertingUser {
+    button[type="submit"] {
+        bottom: 65px;
+    }
+
+    .btn-no-thank {
+        bottom: 35px;
+    }
+}
+
+.converting-user {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

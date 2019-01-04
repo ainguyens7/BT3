@@ -1,0 +1,19 @@
+.ali-rating {
+    font-size: 20px !important;
+    margin: 2px;
+
+    // Border
+    &.rating-symbol-background {
+        color: $rating-star-border;
+    }
+
+    // Background
+    &.rating-symbol-background + div {
+        color: $rating-star-bg;
+    }
+
+    &[class^="icon-"],
+    &[class*=" icon-"] {
+        display: inline-block;
+    }
+}

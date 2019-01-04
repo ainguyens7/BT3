@@ -1,0 +1,33 @@
+{
+  "titleNoReview": {
+    "message": "Can't find any reviews"
+  },
+  "descriptionNoReview": {
+    "message":
+      "Your product link from AliExpress is processed. However, there is no any review found that met your setting options. Please try again with other setting options or make sure your product link with review presence."
+  },
+  "actionNoReview": {
+    "message": "TRY TO GET REVIEWS AGAIN"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "reviewIncomming": {
+    "message": "Reviews are flying to your store."
+  },
+  "reviewImported": {
+    "message": "Hurray! We have successfully imported your reviews!"
+  },
+  "reviewNote": {
+    "message": "Please wait 1-2 miliseconds"
+  },
+  "e01": {
+    "message": "Shopify domain not found"
+  },
+  "e02": {
+    "message": "Product was not imported from Aliexpress"
+  },
+  "e03": {
+    "message": "Unknow error. Try again"
+  }
+}

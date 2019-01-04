@@ -1,0 +1,129 @@
+
+@import '../variables';
+
+.dg-container{
+	margin: 0 auto;
+	// width: 870px;
+	height: 340px;
+	position: relative;
+	@media (max-width: 767px) {
+		margin-top: 50px;
+	}
+}
+.dg-wrapper{
+	width: 300px;
+	height: auto;
+	// height: 300px;
+	margin: 0 auto;
+	position: relative;
+	// -webkit-transform-style: preserve-3d;
+	// -moz-transform-style: preserve-3d;
+	// -o-transform-style: preserve-3d;
+	// -ms-transform-style: preserve-3d;
+	// transform-style: preserve-3d;
+	// -webkit-perspective: 1000px;
+	// -moz-perspective: 1000px;
+	// -o-perspective: 1000px;
+	// -ms-perspective: 1000px;
+	// perspective: 1000px;
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+.dg-wrapper a {
+	opacity: 0 !important;
+	width: 300px;
+	height: 220px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: $color_text;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+	transform: translateX(0) !important;
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+.dg-wrapper a .dg-block {
+	opacity: 0;
+	padding: 0 20px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 1px solid #bcc9d8;
+	border-radius: 6px;
+}
+.dg-wrapper a.dg-center {
+	opacity: 1 !important;
+	top: 0;
+}
+.dg-wrapper a.dg-center .dg-block {
+	opacity: 1;
+	width: 300px;
+	height: 250px;
+	border: 2px solid $color_skin;
+	box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.15);
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.01s ease-in-out;
+	-moz-transition: all 0.01s ease-in-out;
+	-o-transition: all 0.01s ease-in-out;
+	-ms-transition: all 0.01s ease-in-out;
+	transition: all 0.01s ease-in-out;
+}
+.dg-wrapper a img{
+	display: inline-block;
+	margin-top: 20px;
+}
+.dg-wrapper a.dg-center img {
+	margin-top: 26px;
+}
+.dg-wrapper a div.get-start-step{
+	// font-style: italic;
+	text-align: center;
+	// text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	width: 100%;
+	// display: none;
+	// position: absolute;
+}
+.dg-wrapper a.dg-center div.get-start-step{
+	display: block;
+}
+.dg-container nav{
+	width: 420px;
+	height: 44px;
+	position: absolute;
+	z-index: 90;
+	top: 88px;
+	left: 50%;
+	transform: translateX(-50%);
+	@media (max-width: 767px) {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+.dg-container nav span{
+	display: inline-block;
+	cursor:pointer;
+	width: 42px;
+	height: 42px;
+	box-shadow: 0 1px 6px 1px rgba(0,0,0, 0.15);
+	border-radius: 50%; 
+	&.dg-prev {
+		float: left;
+	}
+	&.dg-next {
+		float: right;
+	}
+}
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}

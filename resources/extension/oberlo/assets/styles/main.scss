@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/transitions";
+
+@import "./variables";
+
+@import "./bootstrap";
+
+@import "./alireviewIcon";
+
+@import "./alireviewModalWrapper";
+
+@import "./customMultiSelect";
+
+@import "./noReview";
+
+@import "./reviewLoading";
+
+@import "./reviewFinish";
+
+@import "./toast";
+
+@import "./response";

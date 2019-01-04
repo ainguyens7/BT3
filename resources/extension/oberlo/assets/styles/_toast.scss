@@ -1,0 +1,10 @@
+.alireview-toast-wrapper {
+  position: fixed;
+  top: 3rem;
+  z-index: 9999;
+  right: 2rem;
+
+  .alert {
+    padding-right: 3rem !important;
+  }
+}

@@ -1,0 +1,66 @@
+.general-settings-page {
+	.tagsinput {
+		min-height: 148px !important;
+		height: 148px !important;
+	}
+
+	.error {
+		@extend .style-error;
+	}
+
+	.approve-review-stars{
+		display: none;
+		.alr-icon-star{
+			color: #FFB303 !important;
+		}
+	}
+
+	select[name="setting[language_translate_reviews]"] + .select2 {
+		width: 110px !important;
+	}
+}
+
+.general-settings-page .aff-block {
+	.aff-content {
+		opacity: 0.2;
+		pointer-events: none;
+
+		input {
+			
+		}
+	}
+
+	&.in .aff-content {
+		opacity: 1;
+		pointer-events: initial;
+	}
+}
+.gender_name_percent_input{
+	width: 63px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.general-settings-page .approve-review-stars {
+	.item {
+		display: flex;
+		align-items: center;
+		font-size: 15px !important;
+	
+		.alr-icon-star {
+			margin-left: 3px;
+	
+			&:before {
+				font-size: 25px;
+			}
+		}
+	}
+
+	.wrap-custom-box {
+		padding-left: 28px;
+
+		.checkmark-ckb {
+			top: inherit;
+		}
+	}
+}

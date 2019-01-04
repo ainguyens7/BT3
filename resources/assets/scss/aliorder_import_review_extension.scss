@@ -1,0 +1,32 @@
+/* 
+	Project: Style Extension Aliorder Import Review
+	Author: Pham Thong
+	Version: 0.0.1
+*/ 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700'); // font-family: 'Poppins', sans-serif;
+
+@import 'aliorder_extension/_variable';
+
+@import 'aliorder_extension/base/_base';
+@import 'aliorder_extension/base/_color';
+
+@import 'aliorder_extension/bootstrap-grid-4/_grid';
+
+@import 'aliorder_extension/components/_sprite-icon';
+@import 'aliorder_extension/components/_icon';
+@import 'aliorder_extension/components/_icon-arrow';
+@import 'aliorder_extension/components/_icon-close';
+@import 'aliorder_extension/components/_icon-dot';
+@import 'aliorder_extension/components/_icon-loading';
+
+@import 'aliorder_extension/modules/_button';
+@import 'aliorder_extension/modules/_dropdown';
+@import 'aliorder_extension/modules/_input';
+@import 'aliorder_extension/modules/_card';
+@import 'aliorder_extension/modules/_checkbox';
+@import 'aliorder_extension/modules/_radio';
+@import 'aliorder_extension/modules/_modal';
+@import 'aliorder_extension/modules/_tooltip';
+
+@import 'aliorder_extension/pages/_custom-more';
+

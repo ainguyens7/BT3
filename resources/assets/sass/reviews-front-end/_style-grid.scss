@@ -1,0 +1,192 @@
+@import "reviews-front-end/style-core";
+
+// GRID
+
+.alireview-result {
+  padding: 25px 35px 0;
+}
+
+.list-alireview {
+  grid-gap: 25px !important;
+  // column-count: 4 !important;
+  // padding: 25px 45px 0;
+  padding-top: 0px !important;
+  margin-top: 25px;
+
+  .count-img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 9;
+    color: #fff;
+    background-color: #fff;
+    padding: 2px 5px;
+    font-size: 11px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #989696;
+    user-select: none;
+    display: block !important;
+    line-height: inherit;
+    height: max-content;
+
+    &:after {
+      content: attr(count-img);
+      position: absolute;
+      top: 4px;
+      left: -4px;
+      line-height: inherit;
+      color: #242539;
+      background-color: #fff;
+      padding: 2px 5px;
+      font-size: 11px;
+      border-radius: 4px;
+      box-shadow: 1px 1px 2px #989696;
+      user-select: none;
+    }
+  }
+
+  .alireview-row {
+    width: 25% !important;
+    float: left;
+    padding: 10px 15px 25px 15px !important;
+
+    // Avatar
+    .alireview-thumbnail {
+      width: 100% !important;
+      position: relative;
+      z-index: 9;
+
+      .alireview-avatar {
+        margin-top: -20px;
+        border: solid 3px #fff;
+      }
+
+      .alireview-avatar {
+        width: 50px !important;
+        height: 50px !important;
+        object-fit: cover !important;
+        margin-bottom: -14px !important;
+        position: relative;
+        z-index: 9;
+      }
+
+      .alireview-author {
+        margin-bottom: 5px !important;
+        margin-top: 12px !important;
+
+        .alireview-verified {
+          margin-right: 0 !important;
+          display: inline-block !important;
+          vertical-align: middle !important;
+        }
+      }
+    }
+    
+
+    // Descript
+    .alireview-desc {
+      border: none !important;
+      width: 100% !important;
+      text-align: center !important;
+      float: inherit !important;
+
+      &:before {
+        content: none !important;
+      }
+
+      .alireview-desc-content {
+        padding: 0px 15px !important;
+        padding-bottom: 15px !important;
+        background-color: transparent !important;
+
+        &:before,
+        &:after {
+          content: none !important;
+        }
+
+        .alireview-header {
+          .alireview-status {
+            float: left;
+            width: 100%;
+            text-align: center;
+            margin-top: 5px !important;
+
+            .alireview-verified {
+              display: none !important;
+            }
+
+            .alireview-date {
+              display: none !important;
+            }
+          }
+        }
+
+        .alireview-post {
+          margin-bottom: 5px;
+        }
+        
+        p {
+          text-align: center !important;
+        }
+      }
+      
+      .alireview-like-wrap .alireview-date {
+        display: inline-block !important;
+      }
+    }
+
+    .alireview-product-img {
+      display: none;
+    }
+  }
+}
+
+.list-alireview .alr-grid {
+  margin-top: 0px !important;
+  // display: block !important;
+
+  img {
+    width: inherit !important;
+    height: inherit !important;
+    display: none !important;
+    margin: auto !important;
+    margin-top: 0px !important;
+    max-height: initial !important;
+
+  &:first-child {
+    display: block !important;
+  }
+ }
+}
+
+.list-review-pagination .alireview-pagination {
+  text-align: center;
+  padding-top: 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .list-alireview .alireview-row {
+    width: 33% !important;
+    width: calc(100% / 3) !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .alireview-result {
+    padding: 25px 0;
+  }
+
+  .list-alireview .alireview-row {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .list-alireview .alireview-row {
+    width: 100% !important;
+  }
+}
+
+// <div id="shopify-ali-review" class="choose_class_only_screen">
+// Only screen: mobile-xs
+@import "only-screen/mobile-xs/style-grid";

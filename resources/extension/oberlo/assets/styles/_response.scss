@@ -1,0 +1,10 @@
+@include media-breakpoint-up(md) {
+  .ars-btn {
+    width: auto !important;
+  }
+
+  .modal-content {
+    width: 40rem !important;
+    left: calc(50% - 20rem) !important;
+  }
+}

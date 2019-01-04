@@ -1,0 +1,122 @@
+.alireview-total-text {
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.btn-add-alireview {
+    font-size: 14px;
+    background-color: #242539;
+    border-radius: 4px;
+    padding: 0 20px;
+    outline: none;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #b7b7b7;
+    border: none;
+    font-size: 13px !important;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(36, 37, 57, 0.8);
+    }    
+
+    &:active {
+        background-color: rgba(36, 37, 57, 0.9);;
+    }
+}
+
+.alireview-number-total-review {
+    color: #ffffff;
+    font-size: 20px;
+    display: table;
+    float: left;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+    margin-right: 10px;
+    user-select: none;
+    position: relative;
+
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.alireview-header-summary {
+    position: relative;
+    padding: 5px 50px;
+    clear: both;
+    display: block;
+    content: "\0020";
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 5px;
+    }
+
+    .alireview-btn-add-review {
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
+    }
+
+    .alireview-summary {
+        display: flex;
+        align-items: center;
+
+        [class^="alr-icon-"], 
+        [class*="alr-icon-"],
+        .rating-symbol-foreground,
+        .rating-symbol-background {
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .alireview-total-review {
+            margin-left: 10px;
+        }
+    }
+}
+
+.alireview-power-by {
+    display: flex !important;
+    align-items: center;
+    margin: 10px 0 0;
+    font-size: 11px;
+    color: #4a4f56;
+    opacity: .4;
+    
+    a {
+        margin-left: 4px;
+    }
+
+    img {
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .alireview-btn-add-review {
+        position: relative !important;
+        margin-top: 30px;
+        width: 100%;
+        right: inherit !important;
+        transform: translate(0, 0) !important;
+
+        .btn-add-alireview {
+            width: 100%;
+        }
+    }
+}

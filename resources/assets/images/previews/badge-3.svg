@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="13886 12502.068 211.399 272.614">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #242539;
+      }
+
+      .cls-2 {
+        font-size: 13px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: #caced5;
+      }
+
+      .cls-7 {
+        filter: url(#BG);
+      }
+    </style>
+    <filter id="BG" x="13886" y="12502.068" width="211.399" height="272.614" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1789" data-name="Group 1789" transform="translate(12923 12103)">
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, -12923, -12103)">
+      <g id="BG-2" data-name="BG" class="cls-1" transform="translate(13895 12509.07)">
+        <path class="cls-5" d="M 192.8993835449219 254.114013671875 L 0.5000042915344238 254.114013671875 L 0.5000042915344238 0.5000068545341492 L 192.8993835449219 0.5000068545341492 L 192.8993835449219 254.114013671875 Z"/>
+        <path class="cls-6" d="M 192.3993988037109 253.614013671875 L 192.3993988037109 1.000006794929504 L 0.999991774559021 1.000006794929504 L 0.999991774559021 253.614013671875 L 192.3993988037109 253.614013671875 M 193.3993988037109 254.614013671875 L -8.227539183280896e-06 254.614013671875 L -8.227539183280896e-06 6.835937711002771e-06 L 193.3993988037109 6.835937711002771e-06 L 193.3993988037109 254.614013671875 Z"/>
+      </g>
+    </g>
+    <text id="Product_Name" data-name="Product Name" class="cls-2" transform="translate(1028 629)"><tspan x="0" y="0">Product Name</tspan></text>
+    <g id="Group_1152" data-name="Group 1152" transform="translate(981.109 420.083)">
+      <rect id="HTB1XMTgXgvGK1Jjy0Fbq6z4vVXaf" class="cls-3" width="175.181" height="175.181" rx="5"/>
+      <g id="box" transform="translate(50.452 49.051)">
+        <g id="Group_1148" data-name="Group 1148" transform="translate(0)">
+          <path id="Path_938" data-name="Path 938" class="cls-4" d="M261.968,160.96l-3.768,2v35.933l33.931-17.959V145Z" transform="translate(-218.268 -121.812)"/>
+          <path id="Path_939" data-name="Path 939" class="cls-4" d="M88.222,6.924,75.173,0,40.3,18.454l13.067,6.924Z" transform="translate(-38.381)"/>
+          <path id="Path_940" data-name="Path 940" class="cls-4" d="M203.894,74.152,188.856,66.3,154,84.754l1.989.944,13.049,6.908,12.979-6.86Z" transform="translate(-132.246 -55.698)"/>
+          <path id="Path_941" data-name="Path 941" class="cls-4" d="M48.42,165.086l-6.245-2.942V153L29.3,146.2v35.677l33.687,17.831V164.031L48.42,156.339Z" transform="translate(-29.3 -122.82)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

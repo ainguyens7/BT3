@@ -1,0 +1,19 @@
+.add-no-review {
+  padding-bottom: 30px !important;
+  text-align: center !important;
+
+  h2 {
+    font-weight: 700 !important;
+  }
+
+  p {
+    margin: 30px 0 40px !important;
+    font-size: 16px !important;
+    color: $color_text !important;
+    line-height: 1.8em !important;
+  }
+
+  > a {
+    display: inline-block !important;
+  }
+}

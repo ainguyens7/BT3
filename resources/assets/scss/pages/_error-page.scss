@@ -1,0 +1,27 @@
+.error-page {
+	.wrap-error-style {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+    align-items: center;
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 50px;
+
+		img {
+			margin-bottom: 30px;
+		}
+
+		h1 {
+			color: #FFB303;
+			font-size: 30px;
+			font-weight: 700;
+		}
+
+		a {
+			color: #344C67;
+			font-size: 21px;
+			font-weight: 600;
+		}
+	}
+}

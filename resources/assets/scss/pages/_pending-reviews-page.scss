@@ -1,0 +1,74 @@
+.pending-reviews-page {
+    .table-ali-custom thead > tr > th {
+        color: #242539;
+    }
+}
+
+
+.pending-reviews-page {
+    .wrapper-tbl-action {
+        button.wid130 {
+            width: 130px !important;
+        }
+
+        .action {
+            width: 150px;
+            margin-left: 15px;
+            float: left;
+
+            .select2 {
+                width: 150px !important;
+                max-width: 150px !important;
+            }
+        }
+    }
+
+    .table-ali-custom {
+        thead > tr > th {
+            color: $dark-blue;
+        }
+
+        .media-body {
+            vertical-align: middle;
+
+            a {
+                color: #3b86ff;
+            }
+        }
+    }
+
+    .input-group--search {
+        input[type="text"] {
+            font-size: 15px;
+        }
+    }
+}
+
+.pending-reviews-page {
+    .wrap-custom-box {
+        .checkmark-ckb {
+            height: 15px;
+            width: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        input[type="checkbox"]:checked ~ .checkmark-ckb:after {
+            left: 5px;
+            top: 2px;
+            width: 5px;
+            height: 9px;
+        }
+    }
+
+    .wrapper-tbl-action .wrap-custom-box {
+        float: left;
+        margin-top: 8px;
+        
+        .checkmark-ckb {
+            left: 12px;
+        }
+    }
+}
+
+

@@ -1,0 +1,25 @@
+.preview-badge-page {
+    .item-widget-at,
+    .item-badge-at {
+        margin-bottom: 40px;
+
+        img {
+            max-width: 100%;
+        }
+
+        .wrap-custom-box {
+            padding-left: 0;
+        }
+
+        .checkmark-rdb {
+            bottom: -35px;
+            top: inherit;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .wrap-custom-box {
+        width: 100%;
+    }
+}

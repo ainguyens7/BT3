@@ -1,0 +1,97 @@
+<div class="modal fade" id="modalSettingReview" tabindex="-1" role="dialog" aria-labelledby="modalSettingReview" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="add-reviews-wrap">
+          <form>
+            <input type="hidden" name="except_keyword" value="{{except_keyword}}">
+            <h2>Get Review</h2>
+            <div class="generate-add-reviews">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="only-star-setting">
+                    <p>Only star</p>
+                    <div class="ars-checkox-container">
+                      <label class="ars-checkbox" for="checkbox-review-5-star">
+                        <input type="checkbox" id="checkbox-review-5-star" value="5" tabindex="1" {{#shouldChecked 5 get_only_star}} checked="checked"
+                          {{/shouldChecked}}> Only get
+                        <span>5 stars reviews</span>
+                      </label>
+                    </div>
+                    <div class="ars-checkox-container">
+                      <label class="ars-checkbox" for="checkbox-review-4-star">
+                        <input type="checkbox" id="checkbox-review-4-star" value="4" tabindex="2" {{#shouldChecked 4 get_only_star}} checked="checked"
+                          {{/shouldChecked}}> Only get
+                        <span>4 stars reviews</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="only-picture-setting group-checkbox">
+                    <p>Only Option</p>
+                    <div class="ars-checkox-container">
+                      <label class="ars-checkbox" for="checkbox-with-picture">
+                        <input id="checkbox-with-picture" type="checkbox" tabindex="3" {{#if get_only_picture}} checked="checked" {{/if}}> Only reviews with
+                        <span>picture</span>
+                      </label>
+                    </div>
+
+                    <div class="ars-checkox-container">
+                      <label class="ars-checkbox" for="checkbox-with-content">
+                        <input id="checkbox-with-content" type="checkbox" tabindex="3" {{#if get_only_content}} checked="checked" {{/if}}> Only reviews with
+                        <span>content</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="translate-into-setting group-checkbox">
+                    <p>Translate Reviews Into</p>
+                    <div class="ars-checkbox-container">
+                      <label class="ars-checkbox" for="checkbox-translate-english">
+                        <input id="checkbox-translate-english" type="checkbox">
+                        <span style="color: #344c67 !important;">English</span>
+                        <span>using google translate</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="max-import-setting group-checkbox">
+                    <p>Max number of review</p>
+                    <div class="ars-field">
+                      <input type="number" max="1500" min="0" name="max-number-review" step="10" required="required" id="max-number-review" value="{{get_max_number_review}}">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="language-review-setting group-checkbox">
+                    <p>Language review options</p>
+                    <select id="get-review-filter-country" multiple="multiple" tabindex="5">
+                      {{#each countries as |value key|}}
+                      <option value="{{key}}" {{#shouldSelected key ../country_get_review}} selected {{/shouldSelected}}>{{value}}</option>
+                      {{/each}}
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="generate-add-reviews-btn-wrap">
+                <input class="ars-btn" id="get-review" tabindex="6" type="submit" value="GET REVIEW">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

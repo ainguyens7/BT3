@@ -1,0 +1,68 @@
+@media only screen and (min-width: 450px) {
+#shopify-ali-review.mobile-xs {
+    // summary
+    .alireview-header-summary {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 5px;
+    }
+
+    .alireview-btn-add-review {
+        position: relative !important;
+        margin-top: 30px;
+        width: 100%;
+        right: inherit !important;
+        transform: translate(0, 0) !important;
+
+        .btn-add-alireview {
+            width: 100%;
+        }
+    }
+
+    .alr-count {
+        text-align: right;
+    }
+
+    .alr-summary {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+
+        .alr-count-reviews {
+            width: 100%;
+
+            li {
+                width: 100%;
+
+                .alr-progress-bar {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // form
+    .alireview-add-form {
+        padding: 0 15px;
+    }
+
+    // pagination
+    .list-review-pagination .alireview-pagination {
+        padding-top: 20px;
+
+        li {
+            width: 25px !important;
+            height: 25px !important;
+            line-height: 22px !important;
+    
+            span {
+                font-size: 12px !important;
+            }
+    
+            &.alireview-active span {
+            }
+        }
+    }
+}
+}

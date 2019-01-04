@@ -1,0 +1,19 @@
+@import "style-core";
+
+@media only screen and (min-width: 100px) {
+    #shopify-ali-review.mobile-xs {
+        .alireview-sort {
+            padding: 0 10px;
+        }
+
+        .list-alireview {
+            padding: 15px;
+            grid-gap: 10px !important;
+    
+            .alireview-row {
+                margin-bottom: 0px;
+                width: 100% !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1200px) {
+    .text-align-lg-r {
+        text-align: right !important;
+    }
+    .text-align-lg-l,
+    .text-left-lg {
+        text-align: left !important;
+    }
+    .text-align-lg-c {
+        text-align: center !important;
+    }
+    .text-align-lg- {
+        text-align: inherit !important;
+    }
+    .hidden-lg-down {
+        display: none !important;
+    }
+    .mar-b-0-lg {
+        margin-bottom: 0px !important;
+    }
+    .mar-b-5-lg {
+        margin-bottom: 5px !important;
+    }
+    .mar-b-10-lg {
+        margin-bottom: 10px !important;
+    }
+    .mar-b-15-lg {
+        margin-bottom: 15px !important;
+    }
+    .mar-b-20-lg {
+        margin-bottom: 20px !important;
+    }
+    .mar-b-25-lg {
+        margin-bottom: 25px !important;
+    }
+    .mar-b-30-lg {
+        margin-bottom: 30px !important;
+    }
+    .mar-b-35-lg {
+        margin-bottom: 35px !important;
+    }
+    .mar-b-40-lg {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .text-align-md-r {
+        text-align: right !important;
+    }
+    .text-align-md-l {
+        text-align: left !important;
+    }
+    .text-align-md-c,
+    .text-center-md {
+        text-align: center !important;
+    }
+    .text-align-md- {
+        text-align: inherit !important;
+    }
+    .hidden-md-down {
+        display: none !important;
+    }
+    .table-responsive {
+        overflow-x: auto !important;
+    }
+    .mar-b-15-md {
+        margin-bottom: 15px !important;
+    }
+    .mar-b-30-md {
+        margin-bottom: 30px !important;
+    }
+
+    .mar-md-auto {
+        margin: auto;
+    }
+
+    .wrapper-price {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .product-star-preview {
+        .col-md-7 {
+            border-right: 0;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text-align-sm-r {
+        text-align: right !important;
+    }
+    .text-align-sm-l {
+        text-align: left !important;
+    }
+    .text-align-sm-c {
+        text-align: center !important;
+    }
+    .text-align-sm- {
+        text-align: inherit !important;
+    }
+    .hidden-sm-down {
+        display: none !important;
+    }
+    .mar-sm-auto {
+        margin: auto;
+    }
+
+    .mar-b-15-sm {
+        margin-bottom: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 544px) {
+    .text-align-xs-r {
+        text-align: right !important;
+    }
+    .text-align-xs-l {
+        text-align: left !important;
+    }
+    .text-align-xs-c {
+        text-align: center !important;
+    }
+    .text-align-xs- {
+        text-align: inherit !important;
+    }
+    .hidden-xs-down {
+        display: none !important;
+    }
+    .w-xs-100,
+    .w-100-xs {
+        width: 100% !important;
+    }
+    .mar-b-15-xs {
+        margin-bottom: 15px !important;
+    }
+
+    .media--point .media-body {
+        &--write-new {
+            button {
+                position: static !important;
+                margin-top: 15px;
+            }
+
+            h4,
+            p {
+                padding-right: 0px !important;
+            }
+        }
+
+        &--icon {
+            h4,
+            p {
+                padding-right: 20px;
+            }
+
+            button {
+                padding: 0;
+            }
+        }
+    }
+
+    .ali-modal {
+        .modal-pad-30 {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+
+    .table-responsive-xxs {
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (min-width: 544px) {
+    .hidden-xs-up {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hidden-sm-up {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .text-right-md-min {
+        text-align: right !important;
+    }
+
+    .hidden-md-up {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-right-lg-min {
+        text-align: right !important;
+    }
+
+    .hidden-lg-up {
+        display: none !important;
+    }
+
+    .flex-align-center-md {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 544px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+}

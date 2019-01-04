@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'label_total_products' => 'Total: <span class="color-pink fw700">:countProduct</span> product(s)',
+    'label_total_product' => 'Total: <span class="color-pink fw700">:countProduct</span> product(s)',
+    'label_filter_enter_keyword' => 'Product name...',
+    'label_filter_all_collection' => 'All Collections',
+    'label_filter_all_products' => 'All Products',
+    'label_filter_is_reviews' => 'Added Reviews',
+    'label_filter_is_no_reviews' => 'No Reviews',
+    'cta_filter_apply' => 'Search',
+    'label_table_products_name' => 'Product name',
+    'label_table_reviews' => 'Reviews',
+    'label_table_bulk_settings' => 'Bulk settings',    
+    'label_table_action' => 'Action',
+    'cta_add_reviews' => '+ ADD REVIEW',
+    'link_view_product' => 'View product',
+    'summary_reviews_product' => '<span class="product-item-total-review">:review</span> reviews',
+    'summary_review_product' => '<span class="product-item-total-review">:review</span> review',
+	'label_delete_product_reviews' => 'Delete product reviews',
+	'label_delete_customer_reviews' => 'Delete customer reviews',
+	'label_delete_customer_reviews_title' => 'Are you sure you want to delete all customer reviews on your store?',
+	'label_delete_imported_reviews' => 'Delete imported reviews',
+	'label_delete_imported_reviews_title' => 'Are you sure you want to delete all imported reviews on your store?',
+	'label_delete_all_reviews' => 'Delete all reviews',
+	'label_delete_all_reviews_title' => 'Are you sure you want to delete all reviews on your store?',
+];

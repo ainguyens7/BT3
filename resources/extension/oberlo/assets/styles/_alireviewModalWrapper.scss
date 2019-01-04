@@ -1,0 +1,189 @@
+.alireview-modal-wrapper {
+  // default style modal mobile first
+  .modal {
+    padding-right: 0 !important;
+  }
+  // overwrite modal-content
+  .modal-content {
+    width: 80%;
+    max-height: inherit !important;
+    left: calc(50% - 40%);
+    max-width: 80%;
+    margin-left: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  // clear modal-body y auto scroll
+
+  .modal-body {
+    overflow-y: inherit !important;
+  }
+
+  // overwrite modal-header
+  .modal-header {
+    border: none;
+    background: none !important;
+    flex-direction: row-reverse !important;
+
+    .close {
+      font-size: 2rem !important;
+    }
+  }
+
+  // preview image
+  .review-product-image {
+    margin-top: 1rem !important;
+    text-align: center !important;
+
+    > span {
+      display: inline-block !important;
+      width: 100px !important;
+      height: 100px !important;
+      border: 1px solid #b8c6d6 !important;
+      border-radius: 4px !important;
+      overflow: hidden !important;
+    }
+    img {
+      max-width: 100% !important;
+      border: 0 !important;
+    }
+  }
+
+  // h3 heading
+  h3 {
+    margin: 2rem 0 !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: #344c67 !important;
+    line-height: 1.45em !important;
+    text-align: center !important;
+  }
+  h2 {
+    margin: 0 !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    color: #344c67 !important;
+    line-height: 1.45em !important;
+    text-align: center !important;
+  }
+
+  // checkbox
+  .ars-checkbox {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0;
+
+    span {
+      color: #0564f4 !important;
+    }
+  }
+
+  .ars-field {
+    font-size: 13px;
+    font-weight: 400 !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .alert-warning {
+    margin-bottom: 2rem !important;
+  }
+
+  // default button for mobile
+  .ars-btn {
+    background: $color_skin;
+    display: inline-block;
+    height: 40px;
+    padding: 0 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: $font_size_base;
+    font-weight: 400;
+    color: #fff;
+    line-height: 38px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    &:hover {
+      color: #fff;
+      opacity: 0.8;
+    }
+    &:focus,
+    &:active {
+      color: #fff;
+    }
+  }
+
+  .generate-add-reviews {
+    margin-top: 2rem !important;
+  }
+
+  // input checkbox style
+  input[type="checkbox"]:checked {
+    background-color: #0564f4 !important;
+    border-color: #0564f4;
+  }
+
+  .ars-checkox-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .group-checkbox {
+    p {
+      margin-bottom: 10px !important;
+    }
+  }
+
+  .max-import-setting {
+    margin: 20px 0 0 !important;
+  }
+
+  .generate-add-reviews-btn-wrap {
+    margin: 76px 0 0 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row-reverse !important;
+  }
+  .ars-btn-o {
+    background: #fff;
+    display: inline-block;
+    height: 40px;
+    padding: 0 40px;
+    border: 1px solid #d2dce8;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #344c67;
+    line-height: 38px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .language-review-setting {
+    margin-top: 20px;
+  }
+
+  .ars-btn-lg {
+    background: $color_skin !important;
+    display: inline-block !important;
+    height: 50px !important;
+    padding: 0 40px !important;
+    border: none !important;
+    border-radius: 3px !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    line-height: 48px !important;
+    outline: none !important;
+    &:hover {
+      color: #fff !important;
+      opacity: 0.8 !important;
+    }
+    &:focus,
+    &:active {
+      color: #fff !important;
+    }
+  }
+}

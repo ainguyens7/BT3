@@ -1,0 +1,44 @@
+@import "style-core";
+
+@media only screen and (min-width: 450px) {
+    #shopify-ali-review.mobile-xs {
+        .alireview-sort {
+            padding: 0 10px;
+        }
+        
+        .list-alireview {
+            .alireview-row .alireview-thumbnail {
+                width: 25% !important;
+            }
+        }
+
+        // list review
+        .list-alireview {
+            padding-top: 15px;
+            
+            .alireview-row {
+                padding: 5px 15px !important;
+
+                .alireview-thumbnail {
+                    img.alireview-avatar {
+                        width: 40px !important;
+                        height: initial !important;
+                    }
+                }
+
+                .alireview-desc {
+                    width: 75% !important;
+
+                    .alireview-desc-content {
+                        padding: 15px !important;
+
+                        &:before,
+                        &:after {
+                            content: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

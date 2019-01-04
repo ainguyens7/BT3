@@ -1,0 +1,49 @@
+// navbar-fixed: fixed nav top
+// navside-fixed: fixed nav top + sidebar main
+
+// sidebar-fixed
+body.navside-fixed {
+    aside.main-sidebar ul.sidebar-menu {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin-top: 70px;
+        padding-top: 5px;
+        overflow-y: auto;
+        width: 260px;
+        padding-bottom: 35px;
+    }
+
+    header.main-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .wrapper-content {
+        padding-top: 70px;
+    }
+
+    .divide-sidebar {
+        margin-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 17px;
+        padding-right: 17px;
+        
+        div {
+            border-top: solid 1px #4b4b5d;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body.navside-fixed {
+        aside.main-sidebar ul.sidebar-menu {
+            margin-top: 140px;
+        }
+
+        .wrapper-content {
+            padding-top: 140px;
+        }
+    }
+}

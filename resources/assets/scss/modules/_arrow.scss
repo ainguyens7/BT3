@@ -1,0 +1,29 @@
+// Arrow
+.ali-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform-origin: 50% 50%;
+  }
+  
+  .ali-arrow--right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .ali-arrow--left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .ali-arrow--up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .ali-arrow--down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  // END: Arrow

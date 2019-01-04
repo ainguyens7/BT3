@@ -1,0 +1,26 @@
+#toast-container {
+	>.toast-success {
+		background-color: $toast-success-bg;
+	}
+
+	>.toast-info {
+		color: $toast-info-color;
+		background-color: $toast-info-bg;
+
+		.toast-close-button {
+			color: $toast-info-color;
+		}
+
+		.toast-close-button:before {
+			color: #A4AFB7;
+		}
+	}
+
+	>.toast-warning {
+		background-color: $toast-warning-bg;
+	}
+
+	>.toast-error {
+		background-color: $toast-error-bg;
+	}
+}

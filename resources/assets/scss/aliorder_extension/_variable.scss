@@ -1,0 +1,41 @@
+$prefix: "eAlrv";
+$font_size: 12px;
+$primary: rgba(36, 37, 56, 1);
+$primary_gradient_from: #11DCBA;
+$primary_gradient_to: #23C1BC;
+$secondary: #315DFB;
+$purple: #7009FF;
+$danger: rgba(246, 54, 101, 1);
+$warning: rgba(251, 182, 47, 1); 
+$dark: #4D4F5C;
+$light: #F3F3F5;
+$box_shadow: 0px 0px 3px #ccc !important;
+
+$button_border_radius: 5px;
+
+$button_default: #fff;
+$button_default_hover: rgba(243, 243, 245, 0.7);
+$button_default_active: rgba(228, 228, 230, 0.7);
+
+$button_primary: rgba(36, 37, 56, 1); 
+$button_primary_hover: rgba(36, 37, 56, 0.7);
+$button_primary_active: rgba(36, 37, 56, 0.85);
+
+$button_warning: rgba(251, 182, 47, 1); 
+$button_warning_hover: rgba(251, 182, 47, 0.7); 
+$button_warning_active: rgba(251, 182, 47, 0.85);  
+
+$button_danger: rgba(246, 54, 101, 0.93);
+$button_danger_hover: rgba(246, 54, 101, 0.7);
+$button_danger_active: rgba(246, 54, 101, 0.85);
+
+$button_light: rgba(226, 226, 226, 1);
+$button_light_hover: rgba(226, 226, 226, 0.7);
+$button_light_active: rgba(226, 226, 226, 0.85);
+
+$checkbox_background: rgba(112, 9, 255, 1);
+$checkbox_background_hover: rgba(112, 9, 255, 0.2);
+
+$radio_tick: rgba(112, 9, 255, 1);
+$radio_border: rgba(112, 9, 255, 1);
+$radio_border_hover: rgba(112, 9, 255, 0.2);
