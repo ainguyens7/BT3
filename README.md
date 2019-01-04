@@ -1,1 +1,1 @@
- read me more 
+hướng dẫn cơ bản
